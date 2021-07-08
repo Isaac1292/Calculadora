@@ -1,0 +1,135 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px;
+    color: #fff;
+    
+}
+
+Body {
+     margin: 0;
+     background-color: rgb(248, 243, 234);
+}
+
+ .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      padding: 20px 20px;
+}
+
+.calculadoraIphone {
+      display: grid;
+      grid-template-columns: repeat(4, 65px) ;
+      grid-template-rows: 160px repeat(5, 65px);
+      background-color: black;
+      padding: 14px;
+      border-radius: 25px;
+      box-shadow: 10px 10px 5p rgb(104, 97, 97);
+}
+button{
+     cursor: pointer;
+     margin: 5px;
+     padding: 0;
+     border-radius: 32px;
+     font-size: 0.6cm;
+     border: none;
+     background-color: rgb(165, 162, 162) ;
+     
+}
+button:active{
+    background-color: rgb(125, 126, 128);
+}
+button:focus{
+    outline: none;
+}
+.col-2Numero{
+    grid-column: span 2;
+    align-items: flex-start;
+    text-align: right;
+    padding-right: 65px;
+}
+button:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(5, 5, 5);
+    background-color: rgb(128, 115, 106);
+}
+button:nth-child(3){
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(5, 5, 5);
+    background-color: rgb(128, 115, 106);
+}
+button:nth-child(4){
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(5, 5, 5);
+    background-color: rgb(128, 115, 106);
+}
+button:nth-child(5){
+    background-color: rgb(252, 116, 6);
+}
+button:nth-child(9){
+    background-color: rgb(252, 116, 6);
+}
+button:nth-child(13){
+    background-color: rgb(252, 116, 6);
+}
+button:nth-child(17){
+    background-color: rgb(252, 116, 6);
+}
+button:nth-child(20){
+    background-color: rgb(252, 116, 6);
+}
+button:nth-child(6){
+    background-color: rgb(49, 48, 47);
+}
+button:nth-child(7){
+    background-color: rgb(49, 48, 47);
+}
+button:nth-child(8){
+    background-color: rgb(49, 48, 47);
+}
+button:nth-child(10){
+    background-color: rgb(49, 48, 47);
+}
+button:nth-child(11){
+    background-color: rgb(49, 48, 47);
+}
+button:nth-child(12){
+    background-color: rgb(49, 48, 47);
+}
+button:nth-child(14){
+    background-color: rgb(49, 48, 47);
+}
+button:nth-child(16){
+    background-color: rgb(49, 48, 47);
+}
+button:nth-child(15){
+    background-color: rgb(49, 48, 47);
+}
+button:nth-child(18){
+    background-color: rgb(49, 48, 47);
+    text-align: center ;
+    
+}
+button:nth-child(19){
+    background-color: rgb(49, 48, 47);
+}
+button:nth-child(){
+    background-color: rgb(49, 48, 47);
+}
+.display {
+    grid-column: 1 / -1;
+    display: flex;
+    margin: 5px -10px 8px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    justify-content: space-between;
+    border-radius: 45px;
+
+}
+#valoractual {
+    font-size: 1.9cm;
+   
+}
